@@ -1,0 +1,22 @@
+[
+  {"id":"RAG-01","query":"I forgot my password and cannot sign in","expected_source":"account_and_login.pdf","expected_status":"Resolved"},
+  {"id":"RAG-02","query":"My password reset email has not arrived","expected_source":"account_and_login.pdf","expected_status":"Resolved"},
+  {"id":"RAG-03","query":"My account is locked after too many failed attempts","expected_source":"account_and_login.pdf","expected_status":"Resolved"},
+  {"id":"RAG-04","query":"How do two-step verification OTP backup codes work?","expected_source":"account_and_login.pdf","expected_status":"Resolved"},
+  {"id":"RAG-05","query":"How do I delete my NexaCart account permanently?","expected_source":"account_and_login.pdf","expected_status":"Resolved"},
+  {"id":"RAG-06","query":"I want to return shoes and get a refund","expected_source":"refund_policy.pdf","expected_status":"Resolved"},
+  {"id":"RAG-07","query":"How long does a refund take after warehouse inspection","expected_source":"refund_policy.pdf","expected_status":"Resolved"},
+  {"id":"RAG-08","query":"I received the jacket in size M instead of L, how do I exchange?","expected_source":"refund_policy.pdf","expected_status":"Resolved"},
+  {"id":"RAG-09","query":"Can I return an item 35 days after delivery?","expected_source":"refund_policy.pdf","expected_status":"Resolved"},
+  {"id":"RAG-10","query":"My order is late and I need tracking information","expected_source":"shipping_policy.pdf","expected_status":"Resolved"},
+  {"id":"RAG-11","query":"What are your standard and express shipping delivery timelines and fees?","expected_source":"shipping_policy.pdf","expected_status":"Resolved"},
+  {"id":"RAG-12","query":"My package says delivered on tracking but never arrived","expected_source":"shipping_policy.pdf","expected_status":"Resolved"},
+  {"id":"RAG-13","query":"Can I change my delivery address after the order is dispatched?","expected_source":"shipping_policy.pdf","expected_status":"Resolved"},
+  {"id":"RAG-14","query":"The blender arrived broken and I need a replacement","expected_source":"product_faq.pdf","expected_status":"Resolved"},
+  {"id":"RAG-15","query":"My coffee maker stopped working after 2 months, is it under warranty?","expected_source":"product_faq.pdf","expected_status":"Resolved"},
+  {"id":"RAG-16","query":"I was charged twice for the same order","expected_source":"payments_and_billing.pdf","expected_status":"Escalated"},
+  {"id":"RAG-17","query":"I want to know accepted payment methods","expected_source":"payments_and_billing.pdf","expected_status":"Resolved"},
+  {"id":"RAG-18","query":"எனது கடவுச்சொல்லை மறந்துவிட்டேன், கணக்கில் உள்நுழைய முடியவில்லை","expected_source":"account_and_login.pdf","expected_status":"Resolved"},
+  {"id":"RAG-19","query":"Quiero devolver los zapatos que compré la semana pasada para un reembolso","expected_source":"refund_policy.pdf","expected_status":"Resolved"},
+  {"id":"RAG-20","query":"quantum astrophysics telescope observatory","expected_source":null,"expected_status":"Escalated"}
+]

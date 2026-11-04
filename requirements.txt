@@ -1,0 +1,16 @@
+# NexaCart Support Desk — Python 3.10+
+streamlit==1.50.0
+autogen-agentchat==0.7.5
+autogen-ext[openai]==0.7.5
+openai>=1.93,<2
+python-dotenv>=1.0,<2
+pandas>=2.2,<3
+openpyxl>=3.1,<4
+pytest>=8.0
+
+# PDF ingestion and dense-vector retrieval (FAISS falls back gracefully if unavailable)
+pypdf>=5.0,<6
+faiss-cpu>=1.8.0
+scikit-learn>=1.5,<2
+numpy>=1.26,<3
+reportlab>=4.0,<5

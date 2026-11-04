@@ -1,0 +1,149 @@
+ticket_id,timestamp,customer_name,order_id,complaint,category,urgency,sentiment,kb_sources,response,confidence,status,escalation_reason
+TKT-20261102-5AE4D5,2026-11-02T13:34:25+00:00,Priya Sharma,ORD-48213,Where is my order? It was supposed to arrive yesterday.,Shipping & Delivery,Medium,Neutral,shipping_policy.md,"Dear Priya Sharma,
+
+I understand your concern regarding the delay of your order (ORD-48213). Here are the steps you can take to check on your order:
+
+1. Check the tracking page for any courier updates or a ""delivery attempted"" notice.
+2. Check with your neighbours, building reception, or your parcel locker.
+3. Please wait one additional business day, as most late parcels arrive within 24 hours of the estimate.
+
+If your package is still not delivered two business days after the estimated date, please contact us again with your order ID. A support specialist will follow up with you.
+
+Thank you for your patience.
+
+Best regards,
+NexaCart Support",0.8,Resolved,
+TKT-20261102-9EA6FA,2026-11-02T13:34:32+00:00,Daniel Okafor,ORD-55190,I want to return the shoes I bought last week. How do I get a refund?,Returns & Refunds,Low,Neutral,refund_policy.md,"Dear Daniel Okafor,
+
+Thank you for reaching out regarding your return. To return the shoes for a refund, please follow these steps:
+
+1. Ensure the shoes are unused and in their original packaging with all tags attached.
+2. Make sure the shoes have only been tried on indoors.
+3. Include the original shoe box when returning the item.
+
+Once we receive and inspect the returned shoes, a refund will be issued to your original payment method. Please note that it may take additional time for your bank to process the credit.
+
+If you have any further questions, a support specialist will follow up with you.
+
+Best regards,
+NexaCart Support",0.9,Resolved,
+TKT-20261102-4C23BC,2026-11-02T13:34:40+00:00,Mei Lin,,I forgot my password and can't log in.,Account & Login,Medium,Neutral,account_and_login.md,"Dear Mei Lin,
+
+I understand that you're having trouble logging in due to a forgotten password. Here are the steps you can follow to reset your password:
+
+1. Open the NexaCart sign-in page and click ""Forgot password?"".
+2. Enter the email address registered with your account.
+3. Check your email for a reset link from no-reply@nexacart.com and click on it. Remember, the link is valid for 30 minutes and can be used only once.
+4. Choose a new password that has at least 8 characters, including one number and one symbol.
+
+If you do not receive the reset email, please check your Spam, Junk, and Promotions folders, and ensure you entered the correct email address. If you still need assistance, a support specialist will follow up with you.
+
+Best regards,
+NexaCart Support",1.0,Resolved,
+TKT-20261102-5CA414,2026-11-02T13:34:48+00:00,Carlos Mendes,ORD-60277,The blender I received is broken. Can I get a replacement?,Damaged or Defective Product,Medium,Negative,product_faq.md,"Dear Carlos Mendes,
+
+I’m sorry to hear that the blender you received is broken. To request a replacement, please follow these steps:
+
+1. Log in to your account and go to My Account > Orders.
+2. Select your order and click on 'Report a Problem'.
+3. Upload one or two photos of the damaged blender and its packaging.
+
+Once we review the photos (usually within 1 business day), you will have the option to choose a free replacement or a full refund, including shipping fees. You do not need to return the damaged item unless we provide a prepaid label.
+
+If you have any further questions, a support specialist will follow up with you.
+
+Best regards,
+NexaCart Support",1.0,Resolved,
+TKT-20261102-BB38A9,2026-11-02T13:34:56+00:00,Hannah Brooks,ORD-71034,You charged my card three times! Fix this now or I'm contacting my bank and a lawyer.,Billing & Payments,High,Very Angry,payments_and_billing.md,"Dear Hannah Brooks,
+
+I understand your frustration regarding the multiple charges on your card for order ORD-71034. To address this issue, please follow these steps:
+
+1. Check if the extra charges are pending authorizations.
+2. If you see completed charges, contact our support with your order ID and the last 4 digits of your card.
+3. Our Billing team will verify the charges, and confirmed duplicates will be reversed within 5 business days.
+
+A support specialist will follow up to assist you further. Thank you for your patience.
+
+Best regards,
+NexaCart Support
+
+Your ticket TKT-20261102-BB38A9 has been escalated to a senior NexaCart support specialist, who will contact you within 4 business hours.",0.8,Escalated,High urgency; Customer is very angry; Involves fraud; Involves legal threat; Involves payment dispute
+TKT-20261102-063910,2026-11-02T13:35:05+00:00,Arjun Mehta,,Do you sell gift cards for a company of 500 employees with custom branding?,Product Inquiry,Low,Neutral,,"Dear Arjun Mehta,
+
+Thank you for reaching out to us! I understand you are inquiring about the availability of gift cards with custom branding for your company of 500 employees.
+
+Unfortunately, I do not have specific information regarding custom branded gift cards in our current offerings. However, I recommend contacting our support team directly for detailed assistance on this matter. They will be able to provide you with the most accurate information and options available.
+
+Thank you for your understanding, and please let us know if you have any other questions!
+
+Best regards,
+NexaCart Support
+
+Your ticket TKT-20261102-063910 has been escalated to a senior NexaCart support specialist, who will contact you within 4 business hours.",0.0,Escalated,No matching knowledge-base document; Low resolution confidence (0% < 70%)
+TKT-20261102-0BFDF0,2026-11-02T13:35:13+00:00,Sofia Rossi,ORD-82640,I received the jacket in size M but I ordered L. Can I exchange it for the right size?,Returns & Refunds,Medium,Neutral,refund_policy.md,"Dear Sofia Rossi,
+
+Thank you for reaching out regarding your order. I understand that you received a jacket in size M instead of the size L you ordered. 
+
+To exchange the jacket for the correct size, please follow these steps:
+
+1. Log in to your account and go to 'My Account' > 'Orders'.
+2. Select 'Return or Exchange' and choose 'Exchange'.
+3. We will send you the correct size at no cost, and provide a prepaid label for returning the wrong item.
+
+Please ensure to report this within 14 days of delivery. If the size L is out of stock, you will receive a full refund instead.
+
+If you have any further questions, a support specialist will follow up with you.
+
+Best regards,
+NexaCart Support",0.9,Resolved,
+TKT-20261102-C569BD,2026-11-02T13:35:22+00:00,Tom Becker,,I requested a password reset twice but the email never arrived. What should I do?,Account & Login,Medium,Neutral,account_and_login.md,"Dear Tom Becker,
+
+I understand that you're having trouble receiving the password reset email. Please follow these steps to resolve the issue:
+
+1. Allow up to 10 minutes for the email to arrive.
+2. Check your Spam, Junk, and Promotions folders.
+3. Add no-reply@nexacart.com to your safe-senders list.
+4. Ensure you entered the email address used at sign-up, as we cannot send reset links to unregistered addresses.
+5. You can request a new link after 2 minutes, but note that this will invalidate the previous one.
+
+If you still do not receive the email after these steps, please contact support, and we will verify your identity and reset the password manually.
+
+Thank you for your patience!
+
+Best regards,
+NexaCart Support",0.9,Resolved,
+TKT-20261102-EC9385,2026-11-02T13:35:30+00:00,Grace Kim,,There is an unauthorized $420 charge from NexaCart on my credit card that I never made. Is this fraud?,Billing & Payments,High,Negative,payments_and_billing.md,"Dear Grace Kim,
+
+Thank you for reaching out regarding the unauthorized charge on your credit card. I understand how concerning this situation can be.
+
+To address this issue, please follow these steps:
+
+1. Contact our support team immediately to report the unauthorized charge.
+2. Our Trust & Safety team will investigate your report and may freeze the related account while the case is open.
+
+Please remember not to share your full card number through chat or email for your security.
+
+A support specialist will follow up with you to assist further. 
+
+Thank you for your understanding.
+
+Best regards,
+NexaCart Support
+
+Your ticket TKT-20261102-EC9385 has been escalated to a senior NexaCart support specialist, who will contact you within 4 business hours.",0.8,Escalated,High urgency; Involves fraud
+TKT-20261102-D11206,2026-11-02T13:35:39+00:00,Robert Stone,ORD-88219,This is the THIRD time my parcel shows delivered but nothing arrived! Your service is useless and unacceptable. I want a manager right now!,Shipping & Delivery,High,Very Angry,shipping_policy.md,"Dear Robert Stone,
+
+I understand your frustration regarding your parcel showing as delivered but not arriving for the third time. To address this issue, please follow these steps:
+
+1. Check the tracking page for any updates or a ""delivery attempted"" notice.
+2. Verify with your neighbors, building reception, or parcel locker.
+3. If the package is still not delivered after one additional business day, please contact us with your order ID.
+
+Once we receive your inquiry, we will open a trace with the courier and keep you updated.
+
+Thank you for your patience, and I assure you we are here to help.
+
+Best regards,
+NexaCart Support
+
+Your ticket TKT-20261102-D11206 has been escalated to a senior NexaCart support specialist, who will contact you within 4 business hours.",0.8,Escalated,High urgency; Customer is very angry

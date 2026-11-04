@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+data/customer_memory.json
+logs/*
+!logs/.gitkeep
+vector_store/

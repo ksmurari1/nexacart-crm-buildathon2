@@ -1,0 +1,22 @@
+[
+  {"label": "Where is my order?", "customer_name": "Priya Sharma", "order_id": "ORD-48213", "expected": "Resolved",
+   "text": "Where is my order? It was supposed to arrive yesterday."},
+  {"label": "Return shoes for refund", "customer_name": "Daniel Okafor", "order_id": "ORD-55190", "expected": "Resolved",
+   "text": "I want to return the shoes I bought last week. How do I get a refund?"},
+  {"label": "Forgot password", "customer_name": "Mei Lin", "order_id": "", "expected": "Resolved",
+   "text": "I forgot my password and can't log in."},
+  {"label": "Broken blender", "customer_name": "Carlos Mendes", "order_id": "ORD-60277", "expected": "Resolved",
+   "text": "The blender I received is broken. Can I get a replacement?"},
+  {"label": "Charged three times", "customer_name": "Hannah Brooks", "order_id": "ORD-71034", "expected": "Escalated",
+   "text": "You charged my card three times! Fix this now or I'm contacting my bank and a lawyer."},
+  {"label": "Corporate gift cards", "customer_name": "Arjun Mehta", "order_id": "", "expected": "Escalated",
+   "text": "Do you sell gift cards for a company of 500 employees with custom branding?"},
+  {"label": "Wrong size jacket", "customer_name": "Sofia Rossi", "order_id": "ORD-82640", "expected": "Resolved",
+   "text": "I received the jacket in size M but I ordered L. Can I exchange it for the right size?"},
+  {"label": "Reset email missing", "customer_name": "Tom Becker", "order_id": "", "expected": "Resolved",
+   "text": "I requested a password reset twice but the email never arrived. What should I do?"},
+  {"label": "Unknown charge (fraud)", "customer_name": "Grace Kim", "order_id": "", "expected": "Escalated",
+   "text": "There is an unauthorized $420 charge from NexaCart on my credit card that I never made. Is this fraud?"},
+  {"label": "Lost parcel, very angry", "customer_name": "Robert Stone", "order_id": "ORD-88219", "expected": "Escalated",
+   "text": "This is the THIRD time my parcel shows delivered but nothing arrived! Your service is useless and unacceptable. I want a manager right now!"}
+]
