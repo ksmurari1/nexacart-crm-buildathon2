@@ -120,7 +120,7 @@ flowchart TD
 - 19 relevant benchmark queries correctly retrieved the expected source at Rank 1.
 - An irrelevant query was correctly handled through retrieval abstention.
 - Retrieval improvements were validated through offline diagnostic evaluation.
-- Full automated test suite: **27 passed**.
+- Full automated test suite: **28 passed**.
 
 > **Evaluation limitation:** These results reflect a small bundled benchmark, not guaranteed production-wide retrieval accuracy. Rule-based intent boosts are limited to offline fallback mode.
 

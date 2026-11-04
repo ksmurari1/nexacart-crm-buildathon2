@@ -111,3 +111,14 @@ def test_escalated_ticket_enters_human_review_queue(tmp_path):
     updated = store.read().iloc[0]
     assert updated["review_status"] == "Approved"
     assert updated["approved_response"] == "Reviewed response"
+
+
+def test_support_team_builder_supports_both_modes():
+    from support_desk.team import build_support_team
+
+    round_robin = build_support_team(mode="round_robin")
+    selector = build_support_team(mode="selector")
+
+    assert round_robin is not None
+    assert selector is not None
+
