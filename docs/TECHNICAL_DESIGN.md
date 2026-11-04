@@ -14,24 +14,27 @@
 | Testing | Pytest | Automated validation |
 | Persistence | CSV / TXT / XLSX | Ticket logs and review/evaluation records |
 
+
 ## 2. Application Modules
+
 | Module | Responsibility |
 |---|---|
 | `app.py` | Streamlit application entry point |
-| `cli.py` | Command-line entry point |
 | `support_desk/config.py` | Configuration and environment handling |
-| `support_desk/team.py` | AutoGen agent/team configuration |
-| `support_desk/pipeline.py` | Pipeline orchestration and step execution |
+| `support_desk/team.py` | AutoGen agent and team configuration |
+| `support_desk/pipeline.py` | Sequential pipeline orchestration and step execution |
 | `support_desk/models.py` | Pydantic schemas |
-| `support_desk/knowledge_base.py` | Ingestion, indexing, and retrieval |
+| `support_desk/knowledge_base.py` | Knowledge ingestion, indexing, and retrieval |
 | `support_desk/escalation.py` | Deterministic escalation rules |
-| `support_desk/ticket_log.py` | Ticket and review persistence |
+| `support_desk/ticket_log.py` | Ticket and human-review persistence |
 | `support_desk/evaluation.py` | Retrieval evaluation metrics |
-| `support_desk/evaluate_cli.py` | Evaluation command-line runner |
+| `support_desk/evaluate_cli.py` | RAG evaluation command-line runner |
 | `support_desk/ui_styles.py` | Streamlit styling |
-| `support_desk/ui_tabs.py` | Tab / UI composition |
-| `support_desk/agents/` | Individual agent definitions |
+| `support_desk/ui_tabs.py` | Streamlit tab and UI composition |
+| `support_desk/memory.py` | Customer memory retrieval and persistence |
+| `support_desk/agents/` | Individual AutoGen agent definitions |
 | `tests/` | Automated validation |
+
 
 ## 3. Pipeline Data Contracts
 ### `ComplaintInput`

@@ -36,7 +36,7 @@ Models used: `ComplaintInput`, `AgentAnalysis`, and `ResolutionOutput`.
 | Test area | Result |
 |---|---|
 | Model-level validation tests | 10 passed |
-| Integrated application test suite | 23 passed |
+| Integrated application test suite | 27 passed |
 | Input constraints and required fields | Covered |
 | Structured agent output validation | Covered |
 | Confidence range validation | Covered |
