@@ -16,6 +16,20 @@ NexaCart uses five specialized AI agents to analyze customer complaints, retriev
 
 ---
 
+## 🚀 At a Glance
+
+**What it does:** Turns a customer complaint into a categorized, policy-grounded support response, with quality checks and human escalation when needed.
+
+**Typical usage scenarios**
+- Answer routine order, delivery, return, refund, or product-policy questions using retrieved knowledge.
+- Identify urgent, sensitive, ambiguous, or unsupported complaints and route them for human review.
+- Review ticket history and structured outcomes for traceability.
+- Evaluate retrieval behavior using the bundled offline RAG benchmark.
+
+**Reviewer walkthrough:** Start in the Support Desk, submit a sample complaint, inspect retrieved evidence and the drafted response, then explore Human Review, Ticket Log, and RAG Evaluation.
+
+---
+
 ## 🎯 Problem Statement
 
 Traditional customer support operations face challenges such as:
@@ -229,7 +243,7 @@ This separation preserves the existing visual design while making individual UI 
 ### Prerequisites
 - Python 3.12 recommended
 - Git
-- OpenAI API key (optional if using supported offline fallback)
+- OpenAI API key for live LLM-powered processing (offline fallback supports retrieval/evaluation)
 
 ### 1. Clone the repository
 
@@ -264,7 +278,7 @@ source .venv/bin/activate
 ### 3. Install dependencies
 
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ### 4. Configure environment
@@ -325,7 +339,7 @@ for linting.
 ### Install development tools
 
 ```bash
-python -m pip install black flake8
+python -m python -m pip install black flake8
 ```
 
 ### Check code formatting
