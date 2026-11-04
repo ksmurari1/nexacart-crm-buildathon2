@@ -283,21 +283,9 @@ Recommended walkthrough for reviewers:
 8. **Architecture** — Summarize the five agents and guardrails.
 
 ---
+## 🔐 Security
 
-## 🔐 Responsible Use and Limitations
-
-This project is a **Buildathon prototype**, not a production-certified customer support system.
-
-- Do not submit real customer PII or confidential production data.
-- Protect API credentials, logs, and exported ticket files.
-- Retrieval and multilingual quality are not exhaustively evaluated.
-- Offline hashing-based vectors are a fallback, not a replacement for pretrained semantic embeddings.
-- Production deployment would require authentication, authorization, privacy controls, monitoring, rate limiting, audit policies, and broader evaluation.
-
----
-
-## 🙌 Project
-
-Built as part of **Social Eagle AI — Buildathon 2.0**.
+Please review our [Security Policy](SECURITY.md) for information
+on reporting vulnerabilities and security practices.
 
 Feedback and suggestions are welcome!
