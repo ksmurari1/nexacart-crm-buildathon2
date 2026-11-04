@@ -159,23 +159,31 @@ Automated testing is integrated with GitHub Actions.
 
 ---
 
+
 ## 📂 Project Structure
 
 ```text
 nexacart-crm-buildathon2/
 ├── app.py
-├── cli.py
-├── run_app.cmd
-├── run_app.sh
 ├── requirements.txt
 ├── .env.example
 ├── README.md
-├── data/
+├├── data/
 ├── knowledge_base/
 ├├── support_desk/
 │   ├── agents/
+│   ├── config.py
+│   ├── escalation.py
+│   ├── evaluate_cli.py
+│   ├── evaluation.py
 │   ├── knowledge_base.py
-│   └── ...
+│   ├── memory.py
+│   ├── models.py
+│   ├── pipeline.py
+│   ├── team.py
+│   ├── ticket_log.py
+│   ├── ui_styles.py
+│   └── ui_tabs.py
 ├── tests/
 ├── docs/
 │   ├── ARCHITECTURE.md
@@ -191,7 +199,6 @@ nexacart-crm-buildathon2/
 │       └── 04_ticket_log.png
 └── vector_store/
 ```
-
 ---
 
 ## 📚 Documentation
@@ -281,6 +288,29 @@ Recommended walkthrough for reviewers:
 6. **Ticket Log** — Show ticket tracking and traceability.
 7. **RAG Evaluation** — Explain retrieval metrics and offline fallback.
 8. **Architecture** — Summarize the five agents and guardrails.
+
+---
+
+---
+
+## ⚠️ Responsible Use and Limitations
+
+NexaCart AI Customer Support Desk is an educational Buildathon prototype intended for demonstration and experimentation.
+
+- AI-generated responses must be reviewed before customer delivery.
+- Unsupported or sensitive requests should be escalated to a human.
+- The bundled RAG evaluation results represent a small curated dataset and do not guarantee production-wide accuracy.
+- Offline retrieval uses deterministic hashing-based vectors and is not equivalent to pretrained semantic embeddings.
+- The application has not undergone formal production security, compliance, or performance certification.
+- Do not use real customer personally identifiable information (PII) or confidential production data.
+
+---
+
+## 🏆 Buildathon Acknowledgement
+
+Built as part of **Social Eagle AI Buildathon 2.0**, exploring practical applications of Generative AI, multi-agent orchestration, Hybrid RAG, evaluation, and responsible AI.
+
+---
 
 ---
 ## 🔐 Security
