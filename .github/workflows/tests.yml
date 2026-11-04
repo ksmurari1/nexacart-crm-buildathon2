@@ -26,5 +26,10 @@ jobs:
           pip install -r requirements.txt
           pip install pytest
 
+      - name: Diagnose RAG retrieval
+        run: |
+          python -c "from support_desk.knowledge_base import get_kb; from support_desk.evaluation import evaluate_retrieval; kb=get_kb(); print('RETRIEVAL BACKEND:',kb.retrieval_info); r=evaluate_retrieval(kb,save_csv=None); print('HIT@1:',r['hit_at_1']); [print(x['id'], '| Query:',x['query'],'| Expected:',x['expected_source'],'| Retrieved:',x['top_sources']) for x in r['rows'] if x['result']=='Miss']"
+
       - name: Run tests
         run: python -m pytest -v
+        
