@@ -163,42 +163,53 @@ Automated testing is integrated with GitHub Actions.
 ## 📂 Project Structure
 
 ```text
-nexacart-crm-buildathon2/
+nexacart-crm-autogen-buildathon/
+│
 ├── app.py
 ├── requirements.txt
-├── .env.example
 ├── README.md
-├├── data/
-├── knowledge_base/
-├├── support_desk/
-│   ├── agents/
-│   ├── config.py
-│   ├── escalation.py
-│   ├── evaluate_cli.py
-│   ├── evaluation.py
-│   ├── knowledge_base.py
-│   ├── memory.py
-│   ├── models.py
-│   ├── pipeline.py
-│   ├── team.py
-│   ├── ticket_log.py
+├── .env.example
+├── .gitignore
+│
+├── support_desk/
+│   ├── __init__.py
 │   ├── ui_styles.py
-│   └── ui_tabs.py
+│   │
+│   ├── styles/
+│   │   ├── __init__.py
+│   │   ├── base.py
+│   │   ├── hero.py
+│   │   ├── dashboard_metrics.py
+│   │   ├── agent_pipeline_horizontal.py
+│   │   ├── section_headings.py
+│   │   ├── classification_chips.py
+│   │   ├── chat_window_customer_reply.py
+│   │   ├── knowledge_evidence.py
+│   │   ├── complaint_form.py
+│   │   ├── sample_complaint_pills.py
+│   │   ├── navigation_sub_tabs.py
+│   │   ├── input_boxes_white_instead_of_streamlit_s_light_blue.py
+│   │   ├── stronger_borders_so_every_card_has_a_clear_outline.py
+│   │   ├── page_background_flat_mid_tone_applied_to_every_streamlit_layer.py
+│   │   └── page_title_above_the_hero.py
+│   │
+│   ├── agents/
+│   ├── pipeline.py
+│   ├── knowledge_base.py
+│   └── ...
+│
 ├── tests/
 ├── docs/
-│   ├── ARCHITECTURE.md
-│   ├── TECHNICAL_DESIGN.md
-│   ├── TEST_CASES.md
-│   ├── USER_GUIDE.md
-│   ├── SUBMISSION_POST.md
-│   ├── nexacart-system-architecture-and-design-flow.png
-│   └── screenshots/
-│       ├── 01_home.png
-│       ├── 02_resolved_ticket.png
-│       ├── 03_escalated_ticket.png
-│       └── 04_ticket_log.png
-└── vector_store/
+└── .github/
+    └── workflows/
 ```
+---
+### UI Styling Architecture
+
+The Support Desk UI styles are modularized under `support_desk/styles/` to improve readability and maintainability. The main `support_desk/ui_styles.py` module serves as the entry point and combines the modular CSS components.
+
+This separation preserves the existing visual design while making individual UI components easier to maintain and extend.
+
 ---
 
 ## 📚 Documentation
