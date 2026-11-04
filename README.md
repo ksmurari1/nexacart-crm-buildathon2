@@ -317,6 +317,38 @@ NexaCart AI Customer Support Desk is an educational Buildathon prototype intende
 
 ---
 
+## Code Quality
+
+This project uses **Black** for Python code formatting and **Flake8**
+for linting.
+
+### Install development tools
+
+```bash
+python -m pip install black flake8
+```
+
+### Check code formatting
+
+```bash
+python -m black --check .
+```
+
+### Automatically format Python files
+
+```bash
+python -m black .
+```
+
+### Run linting
+
+```bash
+python -m flake8 .
+```
+
+Configuration is maintained in `pyproject.toml` and `.flake8`.
+
+---
 ## 🏆 Buildathon Acknowledgement
 
 Built as part of **Social Eagle AI Buildathon 2.0**, exploring practical applications of Generative AI, multi-agent orchestration, Hybrid RAG, evaluation, and responsible AI.
