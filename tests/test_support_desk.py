@@ -113,11 +113,19 @@ def test_escalated_ticket_enters_human_review_queue(tmp_path):
     assert updated["approved_response"] == "Reviewed response"
 
 
-def test_support_team_builder_supports_both_modes():
-    from support_desk.team import build_support_team
+def test_support_team_builder_supports_both_modes(monkeypatch):
+    from unittest.mock import MagicMock
 
-    round_robin = build_support_team(mode="round_robin")
-    selector = build_support_team(mode="selector")
+    from support_desk import team
+
+    monkeypatch.setattr(
+        team,
+        "create_model_client",
+        lambda cfg: MagicMock(),
+    )
+
+    round_robin = team.build_support_team(mode="round_robin")
+    selector = team.build_support_team(mode="selector")
 
     assert round_robin is not None
     assert selector is not None
